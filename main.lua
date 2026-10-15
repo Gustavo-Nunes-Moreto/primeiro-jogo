@@ -17,8 +17,8 @@ function loop(frame)
     x = 100,
     y = 100,
     speed = 200, 
-    width = 400,
-    height = 400
+    width = 40,
+    height = 40
     }
-    ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFFFFFF))
+    ui.circle(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFFFFFF))
 end 
