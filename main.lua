@@ -35,5 +35,5 @@ function loop(frame)
     jogador.x = math.max(0, math.min(jogador.x, 480 - jogador.width))
     jogador.y = math.max(0, math.min(jogador.y, 270 - jogador.height))
 
-    ui.rect(jogador.x, jogador.y, jogador.width, jogador.height, Palette.hex(0xFFFFFF))
+    ui.rectfill(jogador.x, jogador.y, jogador.width, jogador.height, Palette.hex(0x7FFF))
 end
