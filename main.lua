@@ -10,7 +10,7 @@ function loop(frame)
 
     ui.clip(0,0,480,270)
     ui.camera(0,0)
-    ui.cls(Palette.hex(0x0x02DF))
+    ui.cls(Palette.hex(0x02DF))
     
     ui.print("teste de texto", 32, 32, Palette.hex(0xFFFFFF))
     local jogador 
