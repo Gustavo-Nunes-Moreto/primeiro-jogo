@@ -18,7 +18,7 @@ function loop(frame)
     y = 320,
     speed = 200, 
     width = 4,
-    height = 40
+    height = 15
     }
     ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFFFFFF))
 end 
