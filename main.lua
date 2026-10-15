@@ -19,16 +19,16 @@ function loop(frame)
     ui.cls(Palette.hex(0x02DF))
     
     ui.print("teste de texto", 32, 32, Palette.hex(0xFFFFFF))
-    if ui.btn(2) then -- Esquerda (Left)
+    if ui.btn(2) then 
         jogador.x = jogador.x - jogador.speed
     end
-    if ui.btn(3) then -- Direita (Right)
+    if ui.btn(3) then 
         jogador.x = jogador.x + jogador.speed
     end
-    if ui.btn(0) then -- Cima (Up)
+    if ui.btn(0) then 
         jogador.y = jogador.y - jogador.speed
     end
-    if ui.btn(1) then -- Baixo (Down)
+    if ui.btn(1) then 
         jogador.y = jogador.y + jogador.speed
     end
 
