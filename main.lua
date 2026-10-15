@@ -20,5 +20,5 @@ function loop(frame)
     width = 400,
     height = 400
     }
-    ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0x7FFF))
+    ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFFFFFF))
 end 
