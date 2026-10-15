@@ -20,4 +20,5 @@ function loop(frame)
     width = 400,
     height = 400
     }
+    ui.print(bola)
 end 
