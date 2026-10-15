@@ -20,6 +20,5 @@ function loop(frame)
     width = 400,
     height = 400
     }
-    ui.print("X: " .. bola.x, 32, 48, Palette.hex(0x7FFF))
-    ui.print("Y: " .. bola.y, 32, 64, Palette.hex(0x7FFF))
+    ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0x7FFF))
 end 
