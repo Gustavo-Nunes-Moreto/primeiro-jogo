@@ -3,7 +3,7 @@ require "sprites"
 local jogador ={
 x = 1,
 y = 32,
-speed = 200, 
+speed = 20, 
 width = 4,
 height = 15
 }
@@ -33,5 +33,5 @@ function loop(frame)
     end
 
     
-    ui.rect(jogador.x, jogador.y, jogador.width, jogador.height, Palette.hex(0xFF0000))
+    ui.rect(jogador.x, jogador.y, jogador.width, jogador.height, Palette.hex(0xFFFFFF))
 end
