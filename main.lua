@@ -17,7 +17,7 @@ function loop(frame)
 
     ui.clip(0, 0, 480, 270)
     ui.camera(0, 0)
-    ui.cls(Palette.hex(0xFFFFFF))
+    ui.cls(Palette.hex(0x000000))
     
     if ui.btn(2) then 
         jogador.x = jogador.x - jogador.speed
