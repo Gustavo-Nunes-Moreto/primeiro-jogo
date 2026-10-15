@@ -18,7 +18,6 @@ function loop(frame)
     ui.camera(0,0)
     ui.cls(Palette.hex(0x02DF))
     
-    ui.print("teste de texto", 32, 32, Palette.hex(0xFFFFFF))
     if ui.btn(2) then 
         jogador.x = jogador.x - jogador.speed
     end
