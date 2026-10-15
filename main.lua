@@ -20,18 +20,18 @@ function loop(frame)
     
     ui.print("teste de texto", 32, 32, Palette.hex(0xFFFFFF))
     if ui.btn(2) then -- Esquerda (Left)
-        bola.x = bola.x - bola.speed
+        jogador.x = jogador.x - jogador.speed
     end
     if ui.btn(3) then -- Direita (Right)
-        bola.x = bola.x + bola.speed
+        jogador.x = jogador.x + jogador.speed
     end
     if ui.btn(0) then -- Cima (Up)
-        bola.y = bola.y - bola.speed
+        jogador.y = jogador.y - jogador.speed
     end
     if ui.btn(1) then -- Baixo (Down)
-        bola.y = bola.y + bola.speed
+        jogador.y = jogador.y + jogador.speed
     end
 
-    -- 2. DESENHO DO OBJETO
-    ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFF0000))
+    
+    ui.rect(jogador.x, jogador.y, jogador.width, jogador.height, Palette.hex(0xFF0000))
 end
