@@ -10,7 +10,7 @@ function loop(frame)
 
     ui.clip(0,0,480,270)
     ui.camera(0,0)
-    ui.cls(Palette.hex(#9CE752))
+    ui.cls(Palette.hex(9CE752))
     
     ui.print("teste de codigo", 32, 32, Palette.hex(0xFFFFFF))
     local grade = {
