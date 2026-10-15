@@ -14,10 +14,10 @@ function loop(frame)
     
     ui.print("teste de texto", 32, 32, Palette.hex(0xFFFFFF))
     local bola ={
-    x = 100,
-    y = 100,
+    x = 1,
+    y = 320,
     speed = 200, 
-    width = 40,
+    width = 4,
     height = 40
     }
     ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFFFFFF))
