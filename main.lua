@@ -20,5 +20,5 @@ function loop(frame)
     width = 40,
     height = 40
     }
-    ui.circle(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFFFFFF))
+    ui.rect(bola.x, bola.y, bola.width, bola.height, Palette.hex(0xFFFFFF))
 end 
