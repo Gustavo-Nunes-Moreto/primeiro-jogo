@@ -13,10 +13,11 @@ function loop(frame)
     ui.cls(Palette.hex(0x02DF))
     
     ui.print("teste de texto", 32, 32, Palette.hex(0xFFFFFF))
-    local jogador 
+    local bola ={
     x = 100,
     y = 100,
     speed = 200, 
     width = 40,
     height = 40
+    }
 end 
