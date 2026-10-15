@@ -15,7 +15,7 @@ function loop(frame)
     ui.print("teste de texto", 32, 32, Palette.hex(0xFFFFFF))
     local bola ={
     x = 1,
-    y = 320,
+    y = 32,
     speed = 200, 
     width = 4,
     height = 15
