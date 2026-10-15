@@ -17,9 +17,8 @@ function loop(frame)
 
     ui.clip(0, 0, 480, 270)
     ui.camera(0, 0)
-    ui.cls(Palette.hex(0x0000))
+    ui.cls(Palette.hex(0xFFFFFF))
     
-    -- Movimentação
     if ui.btn(2) then 
         jogador.x = jogador.x - jogador.speed
     end
@@ -33,26 +32,6 @@ function loop(frame)
         jogador.y = jogador.y + jogador.speed
     end
 
-    -- LIMITES DA TELA (CLAMP)
-    -- Garante que o X não seja menor que 0 nem maior que 480 menos a largura do jogador
-    jogador.x = math.max(0, math.min(jogador.x, 480 - jogador.width))
-    -- Garante que o Y não seja menor que 0 nem maior que 270 menos a altura do jogador
-    jogador.y = math.max(0, math.min(jogador.y, 270 - jogador.height))
-
-    ui.rect(jogador.x, jogador.y, jogador.width, jogador.height, Palette.hex(0xFFFFFF))
-end))
-    if ui.btn(2) then 
-        jogador.x = jogador.x - jogador.speed
-    end
-    if ui.btn(3) then 
-        jogador.x = jogador.x + jogador.speed
-    end
-    if ui.btn(0) then 
-        jogador.y = jogador.y - jogador.speed
-    end
-    if ui.btn(1) then 
-        jogador.y = jogador.y + jogador.speed
-    end
     jogador.x = math.max(0, math.min(jogador.x, 480 - jogador.width))
     jogador.y = math.max(0, math.min(jogador.y, 270 - jogador.height))
 
