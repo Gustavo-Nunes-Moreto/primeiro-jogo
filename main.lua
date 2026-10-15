@@ -19,16 +19,16 @@ function loop(frame)
     ui.camera(0, 0)
     ui.cls(Palette.hex(0x000000))
     
-    if ui.btn(2) then 
+    if ui.btn(0) then 
         jogador.x = jogador.x - jogador.speed
     end
-    if ui.btn(3) then 
+    if ui.btn(1) then 
         jogador.x = jogador.x + jogador.speed
     end
-    if ui.btn(0) then 
+    if ui.btn(2) then 
         jogador.y = jogador.y - jogador.speed
     end
-    if ui.btn(1) then 
+    if ui.btn(3) then 
         jogador.y = jogador.y + jogador.speed
     end
 
